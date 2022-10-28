@@ -1,8 +1,9 @@
 # vegvisir
-ᚹᚨᚾᛞᛖᚱᛁᛜ ᛒᚢᛏ ᚾᛟᛏ ᛚᛟᛊᛏ
 <img src="assets/Vegvisir.svg" alt="logo" width="100" height="100" align="right"/>
 
-Make 2D maps from RPLidar and Nav2.
+Create 2D maps of physical spaces using Nav2 and RPLidar
+
+ᚹᚨᚾᛞᛖᚱᛁᛜ ᛒᚢᛏ ᚾᛟᛏ ᛚᛟᛊᛏ
 
 ## Tech Used
 * ROS2 Galactic
@@ -20,3 +21,7 @@ docker run --rm -it --net=host --device /dev/dri/ --device /dev/ttyUSB0 -e DISPL
 
 ## Next steps
 * Decouple scanner from nav2 brain to 2 containers
+
+## References
+* Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach. ICRA 2016 [paper](http://mapir.isa.uma.es/work/rf2o)
+* [linorobot2](https://github.com/linorobot/linorobot2)
